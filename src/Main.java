@@ -7,16 +7,8 @@ public class Main {
 
         System.out.println(number1);
         System.out.println(number2);
-//        System.out.println("number1.getTitleOfBook() = " + number1.getTitleOfBook());
-//        System.out.println("number1.getAuthor().firstName = " + number1.getAuthor().getFirstName());
-//        System.out.println("number1.getAuthor().lasstName = " + number1.getAuthor().getLastName());
-//        System.out.println("number1.getPublicationYear() = " + number1.getPublicationYear() + "\n");
-//        System.out.println("number2.getTitleOfBook() = " + number2.getTitleOfBook());
-//        System.out.println("number2.getAuthor().firstName = " + number2.getAuthor().getFirstName());
-//        System.out.println("number2.getAuthor().lasstName = " + number2.getAuthor().getLastName());
-//        System.out.println("number2.getPublicationYear() = " + number2.getPublicationYear() + "\n");
-//
-//        number1.setPublicationYear(1916);
-//        System.out.println("number1.getPublicationYear() = " + number1.getPublicationYear());
+        System.out.println(number2.equals(number1));
+        System.out.println(number1.hashCode());
+        System.out.println(number2.hashCode());
     }
 }
